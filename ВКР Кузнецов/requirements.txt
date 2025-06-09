@@ -1,0 +1,8 @@
+numpy
+matplotlib
+pandas
+networkx
+scikit-learn
+python-Levenshtein
+extratools==0.8.1
+prefixspan==0.5.2

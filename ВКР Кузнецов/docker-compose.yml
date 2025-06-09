@@ -1,0 +1,13 @@
+services:
+  prefixspan:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+    stdin_open: true
+    tty: true
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python start.py 
+    init: true
+    restart: "no" 
